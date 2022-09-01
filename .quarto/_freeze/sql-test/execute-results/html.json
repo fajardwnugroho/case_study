@@ -1,0 +1,18 @@
+{
+  "hash": "34911a0c758b62486a4bab58dce342c4",
+  "result": {
+    "markdown": "---\ntitle: \"SQL Test\"\neditor: visual\n---\n\n::: {.cell}\n\n:::\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-93db9fc12b1dd28288fc\" class=\"reactable html-widget\" style=\"width:auto;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-93db9fc12b1dd28288fc\">{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"empid\":[121,321,421],\"name\":[\"John\",\"David\",\"Scott\"],\"managerid\":[321,986,876],\"city\":[\"Hyd\",\"Chennai\",\"Mumbai\"]},\"columns\":[{\"accessor\":\"empid\",\"name\":\"empid\",\"type\":\"numeric\"},{\"accessor\":\"name\",\"name\":\"name\",\"type\":\"character\"},{\"accessor\":\"managerid\",\"name\":\"managerid\",\"type\":\"numeric\"},{\"accessor\":\"city\",\"name\":\"city\",\"type\":\"character\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"c53be293b061d13c5a078e33d2260b72\",\"key\":\"c53be293b061d13c5a078e33d2260b72\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"site_libs/core-js-2.5.3/shim.min.js\"></script>\r\n<script src=\"site_libs/react-17.0.0/react.min.js\"></script>\r\n<script src=\"site_libs/react-17.0.0/react-dom.min.js\"></script>\r\n<script src=\"site_libs/reactwidget-1.0.0/react-tools.js\"></script>\r\n<script src=\"site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\r\n<script src=\"site_libs/reactable-binding-0.2.3/reactable.js\"></script>\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Product Marketing Analyst"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Study Case
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - sql-test1.qmd
+      - sql-test2.qmd
+  page-navigation: true
+  
+callout-appearance: simple
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

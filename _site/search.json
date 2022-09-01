@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brief",
+    "section": "",
+    "text": "Answer the question and create document in PDF"
+  },
+  {
+    "objectID": "sql-test.html",
+    "href": "sql-test.html",
+    "title": "SQL Test",
+    "section": "",
+    "text": "reactable(employess)"
+  },
+  {
+    "objectID": "sql-test1.html",
+    "href": "sql-test1.html",
+    "title": "SQL Test 1",
+    "section": "",
+    "text": "Employess\n\n\n\n\n\n\n\n\nQuestion\n\nWrite a SQL query to fetch the empid and name of all the employess working under managerid with id - “986”\nWrite a SQL query to fetch those employess who live in Chennai and work under manager with managerid - “986”\nWrite a SQL query to fetch all the employess who either live in Chennai or work under a manager with managerid - “321”\nWrite a SQL query to fetch the employess whose name begins with any two characters, followed by a text “vi” and ending with any sequence of characters"
+  },
+  {
+    "objectID": "sql-test2.html",
+    "href": "sql-test2.html",
+    "title": "SQL Test 2",
+    "section": "",
+    "text": "Salary\n\n\n\n\n\n\n\n\nQuestion\n\nWrite a SQL query to fetch the different project available from the salary table\nWrite a SQL query to fetch the count of employess working in project “P1”\nWrite a SQL query to find the maximum, minimum, and average salary of the employess\nWrite a SQL query to find the employess id whose salary lies in range of 30000 and 40000\nWrite a SQL query to fetch all those employess who work on project other than P1\nWrite a SQL query to display the total salary of each employess adding the salary with variable value"
+  }
+]

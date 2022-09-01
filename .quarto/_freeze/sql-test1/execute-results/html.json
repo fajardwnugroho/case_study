@@ -1,0 +1,18 @@
+{
+  "hash": "939b832e8c4ef52a4e831086546c38bc",
+  "result": {
+    "markdown": "---\ntitle: \"SQL Test 1\"\neditor: visual\n---\n\n::: {.cell}\n\n:::\n\n# Employess\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-aec78b5db81c5848dde2\" class=\"reactable html-widget\" style=\"width:auto;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-aec78b5db81c5848dde2\">{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"empid\":[121,321,421],\"name\":[\"John\",\"David\",\"Scott\"],\"managerid\":[321,986,876],\"city\":[\"Hyd\",\"Chennai\",\"Mumbai\"]},\"columns\":[{\"accessor\":\"empid\",\"name\":\"empid\",\"type\":\"numeric\"},{\"accessor\":\"name\",\"name\":\"name\",\"type\":\"character\"},{\"accessor\":\"managerid\",\"name\":\"managerid\",\"type\":\"numeric\"},{\"accessor\":\"city\",\"name\":\"city\",\"type\":\"character\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"c53be293b061d13c5a078e33d2260b72\",\"key\":\"c53be293b061d13c5a078e33d2260b72\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n\n\n# Question\n\n-   Write a SQL query to fetch the empid and name of all the employess working under managerid with id - \"986\"\n-   Write a SQL query to fetch those employess who live in Chennai and work under manager with managerid - \"986\"\n-   Write a SQL query to fetch all the employess who either live in Chennai or work under a manager with managerid - \"321\"\n-   Write a SQL query to fetch the employess whose name begins with any two characters, followed by a text \"vi\" and ending with any sequence of characters",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"site_libs/core-js-2.5.3/shim.min.js\"></script>\r\n<script src=\"site_libs/react-17.0.0/react.min.js\"></script>\r\n<script src=\"site_libs/react-17.0.0/react-dom.min.js\"></script>\r\n<script src=\"site_libs/reactwidget-1.0.0/react-tools.js\"></script>\r\n<script src=\"site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\r\n<script src=\"site_libs/reactable-binding-0.2.3/reactable.js\"></script>\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

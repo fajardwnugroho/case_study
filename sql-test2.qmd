@@ -1,0 +1,28 @@
+---
+title: "SQL Test 2"
+editor: visual
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(reactable)
+library(googlesheets4)
+
+
+salary <- read_sheet("https://docs.google.com/spreadsheets/d/1Y_Ym8b9nwHeYu1pziESVHCoDEJcpix2sZOy1_vwjloA/edit#gid=0")
+```
+
+# Salary
+
+```{r, echo=FALSE}
+reactable(salary)
+```
+
+
+# Question
+
+-   Write a SQL query to fetch the different project available from the salary table
+-   Write a SQL query to fetch the count of employess working in project "P1"
+-   Write a SQL query to find the maximum, minimum, and average salary of the employess 
+-   Write a SQL query to find the employess id whose salary lies in range of 30000 and 40000
+-   Write a SQL query to fetch all those employess who work on project other than P1
+-   Write a SQL query to display the total salary of each employess adding the salary with variable value

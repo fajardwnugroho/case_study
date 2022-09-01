@@ -1,0 +1,18 @@
+{
+  "hash": "ac7c45c8da2b21d2c5657402a192d7d6",
+  "result": {
+    "markdown": "---\ntitle: \"SQL Test 2\"\neditor: visual\n---\n\n::: {.cell}\n\n:::\n\n# Salary\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-c6c36d072f7e1845aa17\" class=\"reactable html-widget\" style=\"width:auto;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-c6c36d072f7e1845aa17\">{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"empid\":[121,321,421],\"project\":[\"P1\",\"P2\",\"P1\"],\"salary\":[20000,35000,50000],\"variable\":[0,1000,3000]},\"columns\":[{\"accessor\":\"empid\",\"name\":\"empid\",\"type\":\"numeric\"},{\"accessor\":\"project\",\"name\":\"project\",\"type\":\"character\"},{\"accessor\":\"salary\",\"name\":\"salary\",\"type\":\"numeric\"},{\"accessor\":\"variable\",\"name\":\"variable\",\"type\":\"numeric\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"160a544690e517fda75ead7a3c4e3b8b\",\"key\":\"160a544690e517fda75ead7a3c4e3b8b\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n\n\n# Question\n\n-   Write a SQL query to fetch the different project available from the salary table\n-   Write a SQL query to fetch the count of employess working in project \"P1\"\n-   Write a SQL query to find the maximum, minimum, and average salary of the employess \n-   Write a SQL query to find the employess id whose salary lies in range of 30000 and 40000\n-   Write a SQL query to fetch all those employess who work on project other than P1\n-   Write a SQL query to display the total salary of each employess adding the salary with variable value",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"site_libs/core-js-2.5.3/shim.min.js\"></script>\r\n<script src=\"site_libs/react-17.0.0/react.min.js\"></script>\r\n<script src=\"site_libs/react-17.0.0/react-dom.min.js\"></script>\r\n<script src=\"site_libs/reactwidget-1.0.0/react-tools.js\"></script>\r\n<script src=\"site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\r\n<script src=\"site_libs/reactable-binding-0.2.3/reactable.js\"></script>\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

@@ -1,0 +1,26 @@
+---
+title: "SQL Test 1"
+editor: visual
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(reactable)
+library(googlesheets4)
+
+
+employess <- read_sheet("https://docs.google.com/spreadsheets/d/1Hur1SVx45sASJ3Z0ypp6TPd3y0hqterwlTd7Xv3rwL8/edit#gid=0")
+```
+
+# Employess
+
+```{r, echo=FALSE}
+reactable(employess)
+```
+
+
+# Question
+
+-   Write a SQL query to fetch the empid and name of all the employess working under managerid with id - "986"
+-   Write a SQL query to fetch those employess who live in Chennai and work under manager with managerid - "986"
+-   Write a SQL query to fetch all the employess who either live in Chennai or work under a manager with managerid - "321"
+-   Write a SQL query to fetch the employess whose name begins with any two characters, followed by a text "vi" and ending with any sequence of characters
